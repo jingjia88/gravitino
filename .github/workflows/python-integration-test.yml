@@ -4,7 +4,7 @@ name: Python Client Integration Test
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
-    branches: [ "main", "branch-*" ]
+    branches: [ "main", "runTest" ]
   pull_request:
     branches: [ "main", "branch-*" ]
 
